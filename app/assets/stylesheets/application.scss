@@ -1,3 +1,13 @@
-@import "landing_page";
+@import "home";
 @import "bootstrap/scss/bootstrap";
 @import "font-awesome";
+@import"shared/navbar";
+
+p {
+  margin: unset;
+}
+
+body {
+  background-color: #f8f9fa;
+  height: 200vh;
+}
