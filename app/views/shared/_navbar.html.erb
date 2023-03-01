@@ -7,11 +7,33 @@
     </div>
 
     <div class="d-flex h-100">
-      <div class="d-flex align-items-center justify-content-center me-2 text-cont">
-        <p class="text-font">Portfolio +</p>
+      <div class="d-flex align-items-center justify-content-center me-2 text-cont-port">
+        <button type="button" class="btn text-font w-100 h-100" data-bs-toggle="dropdown" aria-expanded="false">
+          <p>Portfolio +</p>
+        </button>
+        <ul class="dropdown-menu" id="drop-port">
+          <li class="dropdown-item-modif">
+            <%= link_to "/portfolio1", class:"text-decoration-none" do %>
+              <p class="dropdown-item text-font-drop">Portfolio 1</p>
+            <% end %>
+          </li>
+          <li class="dropdown-item-modif">
+            <%= link_to "/portfolio2", class:"text-decoration-none" do %>
+              <p class="dropdown-item text-font-drop">Portfolio 2</p>
+            <% end %>
+          </li>
+          <li class="dropdown-item-modif">
+            <%= link_to "/portfolio3", class:"text-decoration-none" do %>
+              <p class="dropdown-item text-font-drop">Portfolio 3</p>
+            <% end %>
+          </li>
+        </ul>
       </div>
+
       <div class="d-flex align-items-center justify-content-center me-2 text-cont">
-        <p class="text-font">Contact</p>
+        <%= link_to "/contact", class: "text-decoration-none text-font" do %>
+          <p class="text-font">Contact</p>
+        <% end %>
       </div>
     </div>
   </div>
