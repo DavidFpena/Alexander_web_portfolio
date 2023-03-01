@@ -1,4 +1,6 @@
 @import "home";
+@import "contact";
+@import "portfolios";
 @import "bootstrap/scss/bootstrap";
 @import "font-awesome";
 @import"shared/navbar";
@@ -9,5 +11,5 @@ p {
 
 body {
   background-color: #f8f9fa;
-  height: 200vh;
+  min-height: 100vh;
 }

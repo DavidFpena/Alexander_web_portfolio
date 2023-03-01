@@ -1,6 +1,6 @@
 #navbar_container {
   height: 8.8vh;
-  background-color: #FFFFFF;
+  background-color: #ffffff54;
 }
 
 #image_navbar {
@@ -8,7 +8,13 @@
 }
 
 .text-cont{
-  width: 8vw;
+  width: 9vw;
+  text-decoration: none;
+}
+
+.text-cont-port {
+  width: 10vw;
+  text-decoration: none;
 }
 
 .text-font {
@@ -16,7 +22,57 @@
   font-style: normal;
   font-weight: 400;
   font-size: 1.5vw;
+  color: black;
+  border: none;
+  :hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
 }
+
+.dropdown-item-modif{
+  :hover {
+    background-color: #FFFFFF;
+  }
+}
+
+.text-font-drop {
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3vw;
+  color: black;
+  border: none;
+  :hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+
+#drop-port {
+  border: none;
+  border-radius: 0;
+  width: 20vw;
+  transform: none;
+  transform: translate3d(-0px, 66px, 0px);
+}
+
+
+@media (max-width: 48em) {
+  .text-cont-port{
+    width: 13vw;
+  }
+  .text-font {
+    font-size: 2vw;
+  }
+
+  .text-font-drop {
+    font-size: 1.8vw;
+  }
+
+  #drop-port {
+    width: 22.5vw;
+  }
+}
+
 
 @media (max-width: 40em) {
   #navbar_container {
@@ -31,7 +87,34 @@
     width: 14vw;
   }
 
+  .text-cont-port{
+    width: 20vw;
+  }
+
   .text-font {
     font-size: 3vw;
+  }
+  .text-font-drop {
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    color: black;
+    border: none;
+    :hover{
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+  }
+  #drop-port {
+    width: 35vw;
+  }
+}
+
+@media (max-width: 22em) {
+  .text-cont-port{
+    width: 22vw;
+  }
+  #drop-port {
+    width: 15vw;
   }
 }
