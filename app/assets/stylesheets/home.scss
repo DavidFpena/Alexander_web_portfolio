@@ -7,11 +7,7 @@
 
 .image-cont {
   background-color: rgb(68, 68, 173);
-  max-height: 80vh;
-  animation: image-load 600ms ease-out;
-}
-
-.image-cont-test {
+  height: 80vh;
   animation: image-load 600ms ease-out;
 }
 
@@ -20,8 +16,8 @@
 }
 
 .portrait :hover{
-  -webkit-filter: grayscale(4);
-  filter: grayscale(4);
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
 }
 
 @media(max-width: 48em) {
