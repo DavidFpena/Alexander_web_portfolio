@@ -11,10 +11,6 @@
   animation: image-load 600ms ease-out;
 }
 
-.row {
-  margin-bottom: 10vh;
-}
-
 .portrait :hover{
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
@@ -28,12 +24,6 @@
 @media(max-width:767px) {
   #image_container_home {
     margin-top: 7vh;
-  }
-  .row + .row {
-    margin-top: 10vh;
-  }
-  .image-cont + .image-cont {
-    margin-top: 10vh;
   }
 }
 @media(max-width: 40em) {
