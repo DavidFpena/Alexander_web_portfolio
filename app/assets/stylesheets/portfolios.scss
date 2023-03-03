@@ -2,8 +2,7 @@
   margin-left: 10.9375vw;
   margin-right: 10.9375vw;
   margin-top: 5vh;
-  height: 150vh;
-  background-color: white;
+  height: fit-content;
 }
 
 .port-title {
@@ -13,4 +12,27 @@
   font-style: normal;
   color: black;
   border: none;
+  font-size: 2vw;
+}
+
+.image-cont-port-vert {
+  margin-bottom: 10vh;
+  animation: image-load 600ms ease-out;
+}
+
+@media (max-width: 40em) {
+  .port-title {
+    margin-top: 5vh;
+    font-size: 4vw;
+  }
+}
+
+@keyframes image-load {
+  0% {
+    transform: perspective(200px) translateZ(-100px);
+  }
+
+  100% {
+    transform: perspective(200px) translateZ(0);
+  }
 }

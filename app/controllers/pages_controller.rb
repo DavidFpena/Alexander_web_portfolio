@@ -5,6 +5,13 @@ class PagesController < ApplicationController
   def contact
   end
 
-  def portfolio1
+  def portraits
+  end
+
+  def portfolio2
+  end
+
+  def portfolio3
+
   end
 end

@@ -1,11 +1,12 @@
 #navbar_container {
   height: 8.8vh;
-  background-color: #ffffff54;
+  background-color: #ffffffbf;
 }
 
 #image_navbar {
   width: 17vw;
 }
+
 
 .text-cont{
   width: 9vw;
@@ -21,7 +22,7 @@
   font-family: 'Jacques Francois';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   color: black;
   border: none;
   :hover{
@@ -31,7 +32,7 @@
 
 .dropdown-item-modif{
   :hover {
-    background-color: #FFFFFF;
+    background-color: #ffffffa6;
   }
 }
 
@@ -39,7 +40,7 @@
   font-family: 'Jacques Francois';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   color: black;
   border: none;
   :hover{
@@ -53,6 +54,8 @@
   width: 20vw;
   transform: none;
   transform: translate3d(-0px, 66px, 0px);
+  background-color: #ffffffbf;
+  padding: 0;
 }
 
 
