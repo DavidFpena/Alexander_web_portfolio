@@ -5,28 +5,31 @@
   height: fit-content;
 }
 
-.image-cont {
-  background-color: rgb(68, 68, 173);
-  height: 80vh;
+.lrg-cont{
+  margin-bottom: 10vh;
+}
+
+.image-cont-port {
   animation: image-load 600ms ease-out;
 }
 
-.portrait :hover{
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
+.overlay-text {
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-size: 1.8vw;
+  color: #ffffff;
+  opacity: 0;
 }
 
-@media(max-width: 48em) {
-  .image-cont {
-    height: 60vh;
+
+.hover-img:hover{
+  transition: 0.3s;
+  -webkit-filter: grayscale(0.6);
+  filter: grayscale(0.6);
+  .overlay-text {
+    transition: 0.6s;
+    opacity: 1;
   }
-}
-@media(max-width:767px) {
-  #image_container_home {
-    margin-top: 7vh;
-  }
-}
-@media(max-width: 40em) {
 }
 
 @keyframes image-load {
@@ -36,5 +39,17 @@
 
   100% {
     transform: perspective(200px) translateZ(0);
+  }
+}
+
+@media(max-width: 48em) {
+  .image-cont {
+    height: 60vh;
+  }
+}
+
+@media(max-width:767px) {
+  #image_container_home {
+    margin-top: 7vh;
   }
 }
