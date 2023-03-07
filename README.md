@@ -6,7 +6,6 @@
 
 - [Overview](#overview)
 - [Built With](#built-with)
-- [Features](#features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
@@ -37,10 +36,6 @@ The framework used for the development of this website was [RubyOnRails 7](https
 
 The frontend portion of the website was developed using [SCSS](https://sass-lang.com) and [bootstrap5](https://getbootstrap.com). To be able to use bootstrap elements that need js, I used popper js.
 
-
-## Features
-
-<!-- TODO: List what specific 'user problems' that this application solves. -->
 
 ## Contact
 
