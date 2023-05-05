@@ -1,22 +1,15 @@
 #navbar_container {
   height: 8.8vh;
-  background-color: #ffffffbf;
+  background-color: #fffffff2;
 }
 
 #image_navbar {
-  width: 17vw;
+  width: 14vw;
 }
 
 
-.text-cont{
-  width: 9vw;
-  text-decoration: none;
-}
 
-.text-cont-port {
-  width: 10vw;
-  text-decoration: none;
-}
+
 
 .text-font {
   font-family: 'Jacques Francois';
@@ -30,11 +23,45 @@
   }
 }
 
-.dropdown-item-modif{
+.text-cont{
+  width: 9vw;
+  text-decoration: none;
+}
+
+.text-cont-port {
+  width: 10vw;
+  text-decoration: none;
+}
+
+#dropdown-button {
+  background-color: unset;
+}
+
+#dropdown-menu {
+  display: none;
+}
+
+#dropdown-menu.show {
+  display: block;
+}
+
+
+#dropdown-list {
+  background-color: #ffffffbf;
+  width: 20.665vw;
+  padding: 0;
+}
+
+.dropdownitem {
+  height: 6vh;
+  display: flex;
+  align-items: center;
   :hover {
     background-color: #ffffffa6;
   }
 }
+
+
 
 .text-font-drop {
   font-family: 'Jacques Francois';
@@ -43,9 +70,11 @@
   font-size: 1.2vw;
   color: black;
   border: none;
-  :hover{
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  }
+  padding-left: 2.4vw;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 #drop-port {
@@ -56,6 +85,7 @@
   transform: translate3d(-0px, 66px, 0px);
   background-color: #ffffffbf;
   padding: 0;
+  margin-top: -0.56vh;
 }
 
 
@@ -104,10 +134,6 @@
     font-size: 2.5vw;
     color: black;
     border: none;
-    :hover{
-      transition: 0.3s ease-in;
-      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    }
   }
   #drop-port {
     width: 35vw;
