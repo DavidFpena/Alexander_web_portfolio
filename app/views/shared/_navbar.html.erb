@@ -7,27 +7,29 @@
     </div>
 
     <div class="d-flex h-100">
-      <div class="d-flex align-items-center justify-content-center me-2 text-cont-port dropdown1">
-        <button type="button" class="btn text-font w-100 h-100" data-bs-toggle="dropdown" aria-expanded="false">
+      <div class="me-2 text-cont-port" >
+        <button id="dropdown-button" class="text-font w-100 h-100">
           <p>Portfolio +</p>
         </button>
-        <ul class="dropdown-menu" id="drop-port">
-          <li class="dropdown-item-modif">
-            <%= link_to "/portraits", class:"text-decoration-none" do %>
-              <p class="dropdown-item text-font-drop">Portraits</p>
-            <% end %>
-          </li>
-          <li class="dropdown-item-modif">
-            <%= link_to "/portfolio2", class:"text-decoration-none" do %>
-              <p class="dropdown-item text-font-drop">Portfolio 2</p>
-            <% end %>
-          </li>
-          <li class="dropdown-item-modif">
-            <%= link_to "/portfolio3", class:"text-decoration-none" do %>
-              <p class="dropdown-item text-font-drop">Portfolio 3</p>
-            <% end %>
-          </li>
-        </ul>
+        <div id="dropdown-menu">
+          <ul id="dropdown-list">
+            <li class="dropdownitem">
+              <%= link_to "/portraits", class:"text-decoration-none h-100 w-100" do %>
+                <p class="text-font-drop">Portraits</p>
+              <% end %>
+            </li>
+            <li class="dropdownitem">
+              <%= link_to "/portfolio2", class:"text-decoration-none h-100 w-100" do %>
+                <p class="text-font-drop">Portfolio 2</p>
+              <% end %>
+            </li>
+            <li class="dropdownitem">
+              <%= link_to "/portfolio3", class:"text-decoration-none h-100 w-100" do %>
+                <p class="text-font-drop">Portfolio 3</p>
+              <% end %>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div class="d-flex align-items-center justify-content-center me-2 text-cont">
