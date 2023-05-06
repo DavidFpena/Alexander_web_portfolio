@@ -1,0 +1,50 @@
+#footer {
+  height: 5vh;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 4vh;
+}
+
+.footcont {
+  display: flex;
+  flex: 1;
+}
+
+.footerfont {
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  color: black;
+  border: none;
+}
+
+#copyright {
+  height: fit-content;
+  justify-content: start;
+}
+
+#copyrightsymbol {
+  height: 1.6vh;
+  align-self: center;
+  justify-content: center;
+}
+
+
+#backtotop {
+  justify-content: center;
+}
+
+#backtotopsymbol {
+  height: 3vh;
+}
+
+#footercontact {
+  justify-content: end;
+  :hover{
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+  }
+}
