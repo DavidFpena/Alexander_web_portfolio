@@ -8,5 +8,5 @@ Rails.application.routes.draw do
   get 'contact', to: 'pages#contact'
   get 'portraits', to: 'pages#portraits'
   get 'film', to: 'pages#film'
-  get 'portfolio3', to: 'pages#portfolio3'
+  get 'behindthescenes', to: 'pages#behindthescenes'
 end
