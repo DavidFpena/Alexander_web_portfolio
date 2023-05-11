@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  root to: 'pages#landing'
+  root to: 'landing#home'
   get 'home', to: 'pages#home'
   get 'contact', to: 'pages#contact'
   get 'portraits', to: 'pages#portraits'
