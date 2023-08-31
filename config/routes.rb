@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   get 'portraits', to: 'pages#portraits'
   get 'film', to: 'pages#film'
   get 'behindthescenes', to: 'pages#behindthescenes'
+  get 'test', to: 'pages#test'
 end
