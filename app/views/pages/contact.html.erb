@@ -2,10 +2,14 @@
   <div id="info-cont">
     <div class="d-flex flex-column align-items-center justify-content-center h-100">
       <div class="contact-text-cont">
-        <p class="contact-text">Vancouver, BC | Montréal, Qc</p>
+        <div class='location-cont'>
+          <p class="contact-text city" id="montreal">Montréal</p>
+          <p class="contact-text">|</p>
+          <p class="contact-text city" id="vancouver">Vancouver</p>
+        </div>
       </div>
       <div class="contact-text-cont">
-        <%= link_to "mailto:alex.padilla@hotmail.com", class:"text-decoration-none hyper", target: :_blank do %>
+        <%= link_to "mailto:alexanderpadilla.photo@gmail.com", class:"text-decoration-none hyper", target: :_blank do %>
           <p class="contact-text">alexanderpadilla.photo@gmail.com</p>
         <% end %>
       </div>

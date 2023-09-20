@@ -27,6 +27,27 @@
   color: #000000;
 }
 
+.city {
+  width: 10vw;
+}
+
+
+.location-cont {
+  display: flex;
+  width: 25vw;
+  justify-content: center;
+}
+
+#montreal {
+  text-align: end;
+  margin-right: 20px;
+}
+
+#vancouver {
+  text-align: start;
+  margin-left: 20px;
+}
+
 
 #instagramlogo {
   height: auto;
@@ -64,5 +85,13 @@
     line-height: 42px;
     text-align: center;
     color: #000000;
+  }
+
+  .location-cont {
+    width: fit-content;
+  }
+
+  .city {
+    width: 40vw;
   }
 }
